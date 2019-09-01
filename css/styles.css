@@ -239,3 +239,13 @@
 .branches h5 {
   font-size: 10px;
 }
+.footer-text {
+  padding: 3%;
+}
+.footer-text p {
+  margin:0;
+  padding:0;
+  line-height:15px;
+  text-align: center;
+  font-size: 13px;
+}
