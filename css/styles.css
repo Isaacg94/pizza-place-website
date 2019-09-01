@@ -172,3 +172,15 @@
 .founder-section {
   border-right: solid #9f9f9f 1px;
 }
+.contact-us {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 9%;
+  color: #9f9f9f;
+}
+
+.form-control::placeholder {
+  color: #9f9f9f;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
