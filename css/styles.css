@@ -184,3 +184,36 @@
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
 }
+#userName {
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+#inputEmail {
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+#userMessage {
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+
+#submit {
+  background: #cdcdcd;
+  border: solid #b4b4b4 1px;
+  border-radius: 50px;
+  color: #4a4741;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+#submit:hover {
+  background: #8ebea7;
+  border: solid #4eb583 1px;
+  color: #4a4741;
+}
