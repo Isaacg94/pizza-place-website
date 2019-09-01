@@ -143,3 +143,25 @@
   color: #ffffff;
   background: rgba(31,181,40,1)
 }
+.aboutUs {
+  padding: 5%;
+  box-shadow: 0px 5px 8px #2E1C13;
+
+}
+.about-us {
+  text-align: center;
+  color: #4a4741;
+  border-radius: 10px;
+  border-top: solid #9f9f9f 2px;
+  border-bottom: solid #9f9f9f 2px;
+  background: #f5faf9;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 2%;
+}
+.about-us h1 {
+  color: #4a4741;
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
+}
