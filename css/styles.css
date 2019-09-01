@@ -87,3 +87,17 @@
   font-family: 'Fredericka the Great', cursive;
   font-size: 40px;
 }
+.menu {
+  padding: 5%;
+  background: url('../images/woodbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0px 5px 8px #2E1C13;
+}
+.menu h2 {
+  font-family: 'Shrikhand', cursive;
+  color: #ffda00;
+  font-size: 40px;
+}
