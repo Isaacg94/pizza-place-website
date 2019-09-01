@@ -56,3 +56,15 @@
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+.logo img {
+  margin-left: auto;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.logo:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
