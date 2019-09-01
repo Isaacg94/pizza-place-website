@@ -218,7 +218,7 @@
   color: #4a4741;
 }
 .footer {
-  background-image: linear-gradient(#224747, #37383c);
+  background: url('../images/footerimg1.png');
 }
 .links {
   padding-top: 3%;
@@ -231,16 +231,18 @@
 }
 .branches {
   width: 30%;
-  padding-top: 3%;
-  color: #e6deae;
-  font-size: 7px;
+  padding-top: 2%;
+  color: #000;
+  font-size: 9px;
   text-align: center;
+  font-weight: bolder;
 }
 .branches h5 {
   font-size: 10px;
 }
 .footer-text {
   padding: 3%;
+  color: #e6deae;
 }
 .footer-text p {
   margin:0;
