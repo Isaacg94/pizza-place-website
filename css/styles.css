@@ -165,3 +165,10 @@
   font-family: 'Shrikhand', cursive;
   font-size: 40px;
 }
+#my-image {
+  float: left;
+  padding: 1.5%;
+}
+.founder-section {
+  border-right: solid #9f9f9f 1px;
+}
