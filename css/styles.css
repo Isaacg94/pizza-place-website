@@ -115,3 +115,9 @@
   margin: 1%;
   border-radius: 0px;
 }
+#numberInput {
+  width: 70px;
+}
+.dropdown-menu a {
+  font-family: 'Sarabun', sans-serif;
+}
