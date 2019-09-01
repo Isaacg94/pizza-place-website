@@ -27,3 +27,32 @@
 .nav-item {
   margin-left: 30px;
 }
+#reserve {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  color: #cdcdcd;
+  border: solid #ffffff;
+  border-radius: 50px;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+#reserve:hover {
+  color: #ffffff;
+  background: rgba(31,181,40,0.5)
+}
+.navbar .nav-item a {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  color: #cdcdcd;
+  font-weight: bolder;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.nav-item:hover a {
+  color: #ffffff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
