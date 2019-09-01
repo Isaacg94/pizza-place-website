@@ -68,3 +68,22 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+.carousel-caption {
+  color:#fff;
+  text-align:center;
+  top:45%;
+  left: 10%;
+  width: 550px;
+  bottom:auto;
+  -webkit-transform:translate(0, -50%);
+  -ms-transform:translate(0, -50%);
+  transform:translate(0, -50%);
+}
+.carousel-caption h5 {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+.carousel-caption p {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+}
