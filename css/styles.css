@@ -229,3 +229,13 @@
   width: 50px;
   word-spacing: 30px;
 }
+.branches {
+  width: 30%;
+  padding-top: 3%;
+  color: #e6deae;
+  font-size: 7px;
+  text-align: center;
+}
+.branches h5 {
+  font-size: 10px;
+}
