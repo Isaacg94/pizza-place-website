@@ -217,3 +217,15 @@
   border: solid #4eb583 1px;
   color: #4a4741;
 }
+.footer {
+  background-image: linear-gradient(#224747, #37383c);
+}
+.links {
+  padding-top: 3%;
+  text-align: center;
+  word-spacing: 20px;
+}
+.links img {
+  width: 50px;
+  word-spacing: 30px;
+}
