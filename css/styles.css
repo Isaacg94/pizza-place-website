@@ -101,3 +101,17 @@
   color: #ffda00;
   font-size: 40px;
 }
+.text-center a {
+  font-family: 'Shrikhand', cursive;
+  color: #cdcdcd;
+}
+#menuCard,#menuItem {
+  background: rgba(0,0,0,0.4);
+  font-family: 'Sarabun', sans-serif;
+}
+#dropdownMenuButton {
+  font-family: 'Sarabun', sans-serif;
+  float: left;
+  margin: 1%;
+  border-radius: 0px;
+}
