@@ -1,0 +1,29 @@
+.navbar {
+  background: rgba(0,0,0,0.4) !important;
+}
+
+.navbar .navbar-brand {
+
+  font-weight: bolder;
+  color: #cdcdcd;
+  font-size: 1.3em;
+  margin-left: 5%;
+}
+.navbar-text {
+  font-family: 'Kaushan Script', cursive;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.navbar-text:hover {
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.nav-item {
+  margin-left: 30px;
+}
