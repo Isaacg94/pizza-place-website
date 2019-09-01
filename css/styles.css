@@ -121,3 +121,25 @@
 .dropdown-menu a {
   font-family: 'Sarabun', sans-serif;
 }
+#orderDetails {
+  border-radius: 0px;
+  border: solid #cccbc6 1px;
+  background: rgba(0,0,0,0.8);
+  font-family: 'Sarabun', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+}
+#checkOut {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #DE3831;
+  background: #cdcdcd;
+  border-radius: 50px;
+  position: relative;
+}
+#checkOut:hover {
+  color: #ffffff;
+  background: rgba(31,181,40,1)
+}
