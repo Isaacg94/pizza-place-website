@@ -3,7 +3,7 @@
 #### By **[Isaac Gichuru.](https://github.com/Isaacg94/delani-studio/tree/master)**
 ![alt text](images/screenshot1.png)
 
-<!-- ## [Livelink to GitHub Pages](https://isaacg94.github.io/delani-studio/) -->
+## [Livelink to GitHub Pages](https://isaacg94.github.io/pizza-place-website/)
 ## Description
 The Ch! is a fictional pizza house with multiple locations in Nairobi and this is a web application which allows users to make orders. The app has a variety of pizzas to choose from with various options of size, toppings and crust. The user can also request for delivery of the pizza and can order as many pizzas as he or she wishes. For this version, only one pizza is available to be ordered.
 ## Behaviour Driven Development (BDD)
