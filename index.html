@@ -107,60 +107,95 @@
                     <div class="row">
 
                       <div class="col-sm-4">
+                        <form id="pizza-one-form">
                         <div class="card" id="menuItem">
                           <div class="card-header">
-                            CHICKEN SUPREME
+                            <h5 id="pizza-one-label">CHICKEN SUPREME</h5>
                           </div>
                             <img class="card-img-top" src="images/menu-item0.png" alt="an image of menu item3" width="98%">
                             <div class="card-footer">
                               <div class="form-group" id="numberInput">
-                                <input type="number" class="form-control" placeholder=" 1">
+                                <input type="number" class="form-control" placeholder=" 1" id="pizza-quantity" min="1" required>
                               </div>
-                              <div class="dropdown">
+                              <!-- <div class="dropdown">
                                 <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Size
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <button class="dropdown-item" id="dropdownmenuitem" type="button">Large</button>
-                                  <button class="dropdown-item" id="dropdownmenuitem" type="button">Medium</button>
-                                  <button class="dropdown-item" id="dropdownmenuitem" type="button">Small</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem1" type="button">Large</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem2" type="button">Medium</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem3" type="button">Small</button>
                                 </div>
-                              </div>
-                              <div class="dropdown">
+                              </div> -->
+                              <select class="form-control drop" id="size-selector" required>
+                                <option>Large</option>
+                                <option>Medium</option>
+                                <option>Small</option>
+
+                              </select>
+                              <!-- <div class="dropdown">
                                 <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Crust
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Puff Pastry (200)</a>
-                                  <a class="dropdown-item" href="#">Tripple Cheese Crust (400)</a>
-                                  <a class="dropdown-item" href="#">Double Cheesy Crust (300)</a>
-                                  <a class="dropdown-item" href="#">Cheesy Crust (150)</a>
-                                  <a class="dropdown-item" href="#">Classic Pizza Crust</a>
-                                  <a class="dropdown-item" href="#">Thin & Crust (100)</a>
+                                  <button class="dropdown-item" id="dropdownmenuitem4" type="button">Puff Pastry (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem5" type="button">Tripple Cheese Crust (400)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem6" type="button">Double Cheesy Crust (300)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem7" type="button">Cheesy Crust (150)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem8" type="button">Classic Pizza Crust</button>
                                 </div>
-                              </div>
-                              <div class="dropdown">
+                              </div> -->
+
+                              <select class="form-control drop" id="crust-selector" required>
+                                <option>Puff Pastry</option>
+                                <option>Tripple Cheese Crust</option>
+                                <option>Double Cheesy Crust</option>
+                                <option>Cheesy Crust</option>
+                                <option>Classic Pizza Crust</option>
+
+                              </select>
+                              <!-- <div class="dropdown">
                                 <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Toppings
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Extra Beef (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Ham (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Cheese Mozarella (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Bacon (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Sausages (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Chicken (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Spinach (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Onion (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Mushrooms (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Tomatoes (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Jalapenos (200)</a>
-                                  <a class="dropdown-item" href="#">Extra Olives (200)</a>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Beef (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Ham (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Cheese Mozarella (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Bacon (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Sausages (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Chicken (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Spinach (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Onion (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Mushrooms (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Tomatoes (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Jalapenos (200)</button>
+                                  <button class="dropdown-item" id="dropdownmenuitem9" type="button">Extra Olives (200)</button>
                                 </div>
-                              </div>
+                              </div> -->
+
+                              <select class="form-control drop" id="topping-selector" required>
+                                <option>Extra Beef</option>
+                                <option>Extra Ham</option>
+                                <option>Extra Cheese Mozarella</option>
+                                <option>Extra Bacon</option>
+                                <option>Extra Sausages</option>
+                                <option>Extra Chicken</option>
+                                <option>Extra Spinach</option>
+                                <option>Extra Onion</option>
+                                <option>Extra Mushrooms</option>
+                                <option>Extra Tomatoes</option>
+                                <option>Extra Jalapenos</option>
+                                <option>Extra Olives</option>
+                              </select>
+
+                              <button type="sumbit" class="btn btn-primary" id="checkout">Checkout</button>
+
+
                             </div>
                         </div>
                       </div>
+                      </form>
 
                       <div class="col-sm-4">
                         <div class="card" id="menuItem">
@@ -454,6 +489,25 @@
                   <div class="card-body">
                     <p>Pick Up From:</p>
                     <p>Total Amount:</p>
+                    <div class="summary">
+                      <div id="price-breakdown">
+                        <div class="summary-items">
+                          <p class="space"><span id="size-price"></span></p>
+                        </div>
+                        <div class="summary-items">
+                          <p class="space"><span id="toppings-price"></span></p>
+                        </div>
+                        <div class="summary-items">
+                          <p class="space"><span id="crust-price"></span></p>
+                        </div>
+                        <div class="summary-items">
+                          <p class="space"><span id="delivery-price"></span></p>
+                        </div>
+                      </div>
+                      <div class="summary-items total" id="total">
+                        <h5 class="sum-price" id="total-price"></h5>
+                      </div>
+                    </div>
                   </div>
                   <div class="card-footer">
                     <button onclick="submit()" id="checkOut" class="btn reserve-btn">CHECKOUT</button>
