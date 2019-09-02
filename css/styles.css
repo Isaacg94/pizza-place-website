@@ -123,6 +123,11 @@
 }
 #numberInput {
   width: 70px;
+  float: left;
+}
+#size-selector {
+  width: 120px;
+  float: right;
 }
 .dropdown-menu a {
   font-family: 'Sarabun', sans-serif;
@@ -135,6 +140,7 @@
   color: #fff;
   font-weight: 700;
   text-align: left;
+  font-size: 14px;
 }
 #checkOut {
   font-family: 'Sarabun', sans-serif;

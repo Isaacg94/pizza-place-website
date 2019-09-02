@@ -93,6 +93,10 @@ $(document).ready(()=>{
     // let delivery = $("#to-be-delivered").is(":checked");
     // let pickUp = $("#to-be-picked").is(":checked");
   let chickenSupreme = new Pizza(pizzaName, pizzaSize, crustType, toppingType, pizzaQuantity, false);
-  alert(chickenSupreme.totalPlusDelivery());
+  $("#size-price").text(chickenSupreme.size + " " + chickenSupreme.type + ": " + "Ksh. " + chickenSupreme.priceBySize());
+  $("#crust-price").text(chickenSupreme.crust + ": " +  "Ksh. " + chickenSupreme.crustPrice());
+  $("#toppings-price").text(chickenSupreme.toppings + " Toppings" + ": " + "Ksh. " + chickenSupreme.toppingsPrice());
+  $("#delivery-price").text("Delivery: " + chickenSupreme.deliveryPrice());
+  $("#total").text("Total: " + "Ksh. " + chickenSupreme.totalPlusDelivery());
   });
 });
