@@ -100,3 +100,9 @@ $(document).ready(()=>{
   $("#total").text("Total: " + "Ksh. " + chickenSupreme.totalPlusDelivery());
   });
 });
+
+$(document).ready(function(){
+  $("#checkOut").onclick(function(event){
+      alert (name + ", We have received your message. Thank you for reaching out to us.");
+  });    
+});
