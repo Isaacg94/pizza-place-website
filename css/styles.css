@@ -124,10 +124,19 @@
 #numberInput {
   width: 70px;
   float: left;
+
 }
 #size-selector {
   width: 120px;
   float: right;
+}
+#crust-selector {
+  border-radius: 0px;
+  margin: 2%;
+}
+#topping-selector {
+  border-radius: 0px;
+  margin: 2%;
 }
 .dropdown-menu a {
   font-family: 'Sarabun', sans-serif;
@@ -141,6 +150,7 @@
   font-weight: 700;
   text-align: left;
   font-size: 14px;
+  height: 300px;
 }
 #checkOut {
   font-family: 'Sarabun', sans-serif;
