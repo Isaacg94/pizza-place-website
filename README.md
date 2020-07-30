@@ -1,5 +1,5 @@
 # Ch! Pizza Terrace.
-#### A Premium Pizza House Website, 29/08/2019.
+#### A Gourmet Pizza House Website, 29/08/2019.
 #### By **[Isaac Gichuru.](https://github.com/Isaacg94/delani-studio/tree/master)**
 ![alt text](images/screenshot1.png)
 
